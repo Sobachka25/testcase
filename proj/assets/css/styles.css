@@ -1,0 +1,143 @@
+*{
+    font-family: 'Ubuntu', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    color: #3d4a54;
+}
+
+header{
+    background: #64b9dc;
+    height: 70px;
+}
+header *{
+    color: #f8f8f8;
+}
+
+div.logo{
+    margin-top: 13px;
+}
+
+header ul{
+    margin-bottom: 0;
+    padding: 0;
+    list-style-type: none;
+    float: right;
+}
+
+header ul li{
+    float: left;
+    position: relative;
+}
+
+header ul li a{
+    border-style: solid;
+    border-color: #64b9dc;
+    border-width: 2px;
+    display: block;
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: #f8f8f8;
+    padding: 18px;
+}
+
+header ul li a:hover{
+    background: #559ec0;
+    border-style: solid;
+    border-color: #3d4a54;
+    border-width: 2px;
+}
+
+header ul li ul{
+    position: absolute;
+    margin: 0;
+    top: 70px;
+    right: 0;
+    width: auto;
+    z-index: 3;
+    background-color: #64b9dc;
+    display: none;
+}
+
+header ul li:hover ul{
+
+    display: block;
+}
+header ul li ul li{
+    width: 100%;
+}
+div.before_slider{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1.center{
+text-align: center;
+}
+
+.carousel, .carousel-inner, .carousel-item{
+    height: 720px;
+    border-radius: 10px;
+}
+.post-img{
+    margin: 0;
+    padding: 10px;
+}
+.img-thumbnaill{
+    height: 400px;
+}
+.post{
+    padding: 3px;
+    background-color: #f8f8f8;
+    border-radius: 10px;
+    margin-bottom: 2em;
+}
+
+.center{
+    margin: 20px;
+    text-align: center;
+}
+.post-name:hover{
+    text-decoration: underline;
+}
+.single-post-img{
+    text-align: center;
+    padding: 30px;
+}
+.single-img-thumbnail{
+    height: 500px;
+}
+
+.registration-form{
+    background-color: #f8f8f8;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.center-content{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.post-img-s{
+    margin: 0;
+    padding: 10px;
+}
+
+.img-thumbnaill{
+    height: 150px;
+}
+
+.center1{
+    word-wrap: break-word;
+    text-align: center;
+    padding: 10px;
+}
+
+
+
